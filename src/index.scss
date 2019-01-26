@@ -1,0 +1,52 @@
+.app {
+}
+
+.board {
+  width: 100vw;
+  height: 100vh;
+  background: #eeefee;
+  display: flex;
+  align-items: center;
+}
+
+.column {
+  flex: 1;
+  margin-right: 25px;
+  &:first-child {
+    margin-left: 25px;
+  }
+
+  &__header {
+    padding: 20px;
+    color: white;
+    &--Winnie {
+      background: #8e7492;
+    }
+    &--Bob {
+      background: #3d999c;
+    }
+    &--Thomas {
+      background: #525061;
+    }
+    &--George {
+      background: #f27b39;
+    }
+  }
+}
+
+.card {
+  display: flex;
+  background: white;
+  margin-top: 12px;
+
+  align-items: center;
+
+  &__content {
+    flex: 1;
+    padding: 14px 4px;
+  }
+
+  &__arrow {
+    padding: 12px;
+  }
+}
